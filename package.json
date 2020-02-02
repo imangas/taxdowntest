@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "sls offline start",
     "deploy": "sls deploy",
-    "invoke": "sls invoke -f rates"
+    "invoke": "sls invoke -f rates",
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "axios": "^0.19.2"
   },
   "devDependencies": {
+    "jest": "^25.1.0",
     "serverless-offline": "^5.12.1"
   }
 }
