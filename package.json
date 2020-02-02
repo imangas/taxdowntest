@@ -1,0 +1,26 @@
+{
+  "name": "taxdowntest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imangas/taxdowntest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imangas/taxdowntest/issues"
+  },
+  "homepage": "https://github.com/imangas/taxdowntest#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.12.1"
+  }
+}
