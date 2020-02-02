@@ -4,7 +4,9 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "sls offline start",
+    "deploy": "sls deploy",
+    "invoke": "sls invoke -f rates"
   },
   "repository": {
     "type": "git",

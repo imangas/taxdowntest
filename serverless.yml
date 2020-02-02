@@ -22,6 +22,10 @@ provider:
 functions:
   rates:
     handler: handler.rates
+    events: 
+      - http:
+          path: rates
+          method: get
 
 plugins:
   - serverless-offline
